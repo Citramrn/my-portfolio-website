@@ -1,332 +1,712 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Molengo&family=Mulish&family=Open+Sans&display=swap"
-        rel="stylesheet">
-    <meta name="google-site-verification" content="WjLFqE3QZydM3VTkz4swguQA4s5JqQTqyRIkEGS13kM" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="src/css/bootstrap.min.css">
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="shortcut icon" href="asset/icons/cv.webp" type="image/x-icon">
-    <title>Citra Mirna</title>
+<!-- Mirrored from exill.dk/demo/kitzu/template/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Sep 2020 16:59:42 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+  <!-- Required meta tags-->
+  <meta charset="utf-8">
+  <!-- Title-->
+  <title>Citramrn - Personal Portfolio</title>
+  <!-- Description-->
+  <meta name="description" content="Personal Portfolio Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Favicons-->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <!-- Web fonts-->
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&amp;display=swap"
+    rel="stylesheet">
+  <!-- CSS vendors-->
+  <link rel="stylesheet" href="css/bootstrap-custom.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <link rel="stylesheet" href="css/tiny-slider.css">
+  <link rel="stylesheet" href="css/lity.min.css">
+  <link rel="stylesheet" href="css/simplebar.min.css">
+  <link rel="stylesheet" href="css/jquery.mb.YTPlayer.min.css">
+  <!-- Main CSS-->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- CSS Color scheme-->
+  <link id="color-scheme" rel="stylesheet" href="css/colors/main-darkgreen.css">
+  <!-- Custom CSS (Add your custom CSS styles to this file)-->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- removeIf(customizerDist)-->
+  <link rel="stylesheet" href="../customizer/main.css">
+  <!-- endremoveIf(customizerDist)-->
 </head>
 
-<body>
-    <div class="container mt-5">
-        <div class="card p-5 shadow rounded border-0 ">
-            <div class="row">
-                <div class="col-md-6 text-center">
-                    <div id="profils">
-                        <img src="asset/img/citra.png" alt="myprofile" class="img-responsive alts">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card-content mt-5">
-                        <div class="info-headings">
-                            <h2 class="text-uppercase left six"> <b> Citra Mirna Wati</b></h2>
-                        </div>
-                        <div class="infos">
-                            <ul class="profile-list">
-                                <li class="clearfix">
-                                    <span class="title"><i class="material-icons">email</i></span>
-                                    <span class="content">ctrmirna@gmail.com</span>
-                                </li>
-                                <li class="clearfix">
-                                    <span class="title"><i class="material-icons">language</i></span>
-                                    <span class="content">citramrn.github.io</span>
-                                </li>
-                                <li class="clearfix">
-                                    <span class="title"><i class="material-icons">place</i></span>
-                                    <span class="content">Blitar, Indonesia</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="links">
-                            <a href="https://github.com/Citramrn" target="_blank"> <img src="asset/icons/github.png"
-                                    width="40" alt="github"></a>
-                            <a href="https://www.behance.net/citramirna" target="_blank"> <img
-                                    src="asset/icons/behance.png" width="40" alt="behance" class="ml-2"></a>
-                            <a href="https://www.linkedin.com/in/citra-mirna-786999199/" target="_blank"><img
-                                    src="asset/icons/linkedin.png" width="40" alt="linkedin" class="ml-2">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<body class="theme-dark">
+  <!-- Preloader-->
+  <div class="preloader">
+    <div class="preloader-block">
+      <div class="preloader-icon"><span class="loading-dot loading-dot-1"></span><span
+          class="loading-dot loading-dot-2"></span><span class="loading-dot loading-dot-3"></span></div>
     </div>
-
-    <div class="container mt-5" id="about">
-        <div class="row justify-content-center shadow rounded">
-            <div class="col-md-12">
-                <div class="card rounded border-0 eyes">
-                    <p class="text-center ables">I am able to create a web from the front end of WordPress, HTML, CSS,
-                        SAAS, Javascript, Frameworks such as Bootstrap, Vue Js. I was even able to make UI/UX Design in
-                        Figma and Adobe Photoshop.</p>
-                    <hr class="my-3">
-                    <div class="col-md-12">
-                        <a href="/asset/paper/Portfolio_Citra.pdf" download
-                            class="btn btn-secondary waves-effect mt-3">Download
-                            Resume</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+  </div>
+  <div id="overlay-effect"></div>
+  <!-- Navbar-->
+  <nav class="navbar-expand-md navbar fixed-top" id="navbar"><a class="navbar-brand" data-scroll="" href="#home-area">
+      <!-- Navbar Logo-->
+      <!-- <img class="img-fluid" src="img/img-kitzu-logo.png" alt="Logo"> -->
+    </a>
+    <span class="navbar-menu ml-auto" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" role="button"><span
+        class="btn-line"></span></span>
+    <div class="collapse navbar-collapse order-1 order-lg-0" id="navbarSupportedContent">
+      <!-- Navbar menu-->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
     </div>
-
-    <section class="page-section">
-        <div class=" container">
-            <div class="row">
-                <div class="col-lg-12 text-center mb-5 six">
-                    <h4>Lastest Work</h4>
-                    <h3 class="text-uppercase"> <b> My Project</b></h3>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-3 col-md-4 col-sm-3 d-flex justify-content-center">
-                    <div class="card mb-4 shadow border-0" style="width: 18rem;">
-                        <img src="asset/img/projectu.webp" class="card-img-top" alt="portfolio">
-                        <div class="card-body">
-                            <p class="card-text">This is a project from dicoding to creating a football information
-                                application based on Progressive Web Apps "add to phone Home screen in google
-                                chrome"
-                            </p>
-                            <a href="https://citramrn.github.io/footlballlove.github.io/" target="_blank"
-                                class="card-link text-secondary">Project Link</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-3 d-flex justify-content-center">
-                    <div class="card mb-4 shadow border-0" style="width: 18rem;">
-                        <img src="asset/img/gmni.webp" class="card-img-top" alt="portfolio">
-                        <div class="card-body">
-                            <p class="card-text">Create a web organization of the Indonesian national student movement
-                                Blitar with wordpress
-                                .</p>
-                            <a href="https://dpcgmniblitar.or.id/" target="_blank"
-                                class="card-link text-secondary">Projet Link</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-3 d-flex justify-content-center">
-                    <div class="card mb-4 shadow border-0" style="width: 18rem;">
-                        <img src="asset/img/landing_page.webp" class="card-img-top" alt="portfolio">
-                        <div class="card-body">
-                            <p class="card-text">This is a simple restaurant web landing page build using Bootstrap 5.0
-                                and CSS</p>
-                            <a href="https://simplerestaurantcaffee.netlify.app/" target="_blank"
-                                class="card-link text-secondary">Project Link</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-3 d-flex justify-content-center">
-                    <div class="card mb-4 shadow border-0" style="width: 18rem;">
-                        <img src="asset/img/movie.webp" class="card-img-top" alt="portfolio">
-                        <div class="card-body">
-                            <p class="card-text">movie review project using API from https://www.themoviedb.org/</p>
-                            <a href="https://github.com/Citramrn/the-movie" target="_blank"
-                                class="card-link text-secondary">Project Link</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  </nav>
+  <!-- Home-->
+  <section class="home-area element-cover-bg" id="home" style="background-image:url(img/home.png)">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center">
+        <div class="col-12 col-lg-8 home-content text-center">
+          <h1 class="home-name">Citra <span>Mirna</span></h1>
+          <h4 class="cd-headline clip home-headline">I’m a <span class="cd-words-wrapper single-headline"><b
+                class="is-visible">Front End Enthusiast</b><b>Wordpress Designer</b><b>Freelancer</b></span></h4>
         </div>
-    </section>
-
-    <section class="page-section-heading">
-        <div class="container">
+      </div>
+    </div>
+    <div class="fixed-wrapper">
+      <!-- Languages list-->
+      <!-- <div class="fixed-block block-left">
+        <ul class="list-unstyled languages-list">
+          <li><a href="#0"><span class="single-language">ENG</span></a></li>
+          <li><a href="#0"><span class="single-language">INA</span></a></li>
+        </ul>
+      </div> -->
+      <!-- Social media icons-->
+      <div class="fixed-block block-right">
+        <ul class="list-unstyled social-icons">
+          <li><a href="https://www.linkedin.com/in/citra-mirna-786999199/"><i class="icon ion-logo-linkedin"></i></a>
+          </li>
+          <li><a href="https://github.com/Citramrn"><i class="icon ion-logo-github"></i></a></li>
+          <li><a href="https://www.instagram.com/citramirna/"><i class="icon ion-logo-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- About lightbox-->
+  <div class="lightbox-wrapper" id="about" data-simplebar>
+    <div class="container">
+      <div class="lightbox-close">
+        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="lightbox-content">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3 class="section-subheading mb-5 text-black six text-uppercase">
-                        <b> Education & Experience</h4></b>
+              <div class="col-12">
+                <div class="section-heading page-heading">
+                  <p class="section-description">Get to know me</p>
+                  <h2 class="section-title">About Me</h2>
+                  <div class="animated-bar"></div>
                 </div>
+              </div>
             </div>
+            <!-- Info section-->
+            <div class="info-section single-section">
+              <div class="row align-items-center">
+                <!-- Picture part-->
+                <div class="col-12 col-lg-5 info-img"><img class="img-fluid img-thumbnail" src="img/info-img.jpg"
+                    alt="About Picture"></div>
+                <!-- Content part-->
+                <div class="col-12 col-lg-7 info-content">
+                  <div class="content-block">
+                    <h2 class="content-subtitle">Who am i?</h2>
+                    <h6 class="content-title">I'm Citra Mirna, a Front End Enthusiast and Wordpress Designer</h6>
+                    <div class="content-description">
+                      <p>Experienced front-end developer working with javascript, HTML/CSS, and several frameworks like
+                        Bootstrap and Vue JS. I
+                        can also create UI Designs with Figma.</p>
+                    </div>
+                    <address class="content-info">
+                      <div class="row">
+                        <div class="col-12 col-md-6 single-info"><span>Name:</span>
+                          <p>Citra Mirna Wati</p>
+                        </div>
+                        <div class="col-12 col-md-6 single-info"><span>Email:</span>
+                          <p><a href="mailto:emma@example.com">ctrmirna@gmail.com</a></p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 col-md-6 single-info"><span>Age:</span>
+                          <p>22</p>
+                        </div>
+                        <div class="col-12 col-md-6 single-info"><span>From:</span>
+                          <p>Blitar City</p>
+                        </div>
+                      </div>
+                    </address>
+                    <div class="d-block d-sm-flex align-items-center"><a
+                        class="btn content-download button-main button-scheme"
+                        href="https://cvrest.com/cv/download/citramirna/610a184a85c4850012a93875/6b14dfff7872f5cd710d091435a41110e5cc7019a1c2a54802f61e6017e59ab5"
+                        target="_blank" role="button">Download CV</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Services section-->
+            <!-- Testimonials section-->
+            <div class="testimonials-section single-section">
+              <div class="my-slider">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Resume lightbox-->
+  <div class="lightbox-wrapper" id="resume" data-simplebar>
+    <div class="container">
+      <div class="lightbox-close">
+        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="lightbox-content">
             <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="asset/img/kerja.webp" alt="kerja">
-                            </div>
-                            <div class="timeline-panel card shadow border-0 bg-light">
-                                <div class="timeline-heading">
-                                    <h5 class="subheading">Academy Bitlabs</h5>
-                                    <p class="size">07 April 2020</p>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted"> I created a website landing page from
-                                        Bootstrap 4 Understanding of the core
-                                        concept programming using Javascript
-                                        HTML knowledge required to create web
-                                        pages, and the ability to style pages
-                                        usingCSS2. The practical experience
-                                        needed to combine these technologies
-                                        and publish a website on the internet</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="asset/img/camp.webp" alt="camp">
-                            </div>
-                            <div class="timeline-panel card shadow border-0">
-                                <div class="timeline-heading">
-                                    <h5 class="subheading">Computer Science</h5>
-                                    <p class="size">June 2018 Until Now</p>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">FIE undergraduate,
-                                        Nahdlatul Ulama University Blita</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="asset/img/kerja.webp" alt="kerja">
-                            </div>
-                            <div class="timeline-panel card shadow border-0 bg-light">
-                                <div class="timeline-heading">
-                                    <h5 class="subheading">Academy Dicoding</h5>
-                                    <p class="size">16 August 2020</p>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">implementing Progressive Web Apps such as App Shell,
-                                        Service
-                                        Worker, Web Push, and Web Apps Manifest</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="asset/img/kerja.webp" alt="kerja">
-                            </div>
-                            <div class="timeline-panel card shadow border-0">
-                                <div class="timeline-heading">
-                                    <h5 class="subheading">Academy Dicoding</h5>
-                                    <p class="size">15 June 2020</p>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">implementation of the latest JavaScript
-                                        syntax, Web Components, Build Tools,
-                                        and AJAX to build websites with simple,
-                                        reusable and optimal techniques</p>
-                                </div>
-                            </div>
-                        </li>
+              <div class="col-12">
+                <div class="section-heading page-heading">
+                  <p class="section-description">Check out my Resume</p>
+                  <h2 class="section-title">Resume</h2>
+                  <div class="animated-bar"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Resume section-->
+            <div class="resume-section single-section">
+              <div class="row">
+                <!-- Education part-->
+                <div class="col-12 col-md-6">
+                  <div class="col-block education">
+                    <h3 class="col-title">Education</h3>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h5 class="item-title">SMK Negeri 1 Blitar</h5><span class="item-details">2016 To 2018</span>
+                      <p class="item-description">Industrial electronics, degree: Audio video technique
+                        Interns at Sanken Service Center Kediri
+                        .</p>
+                    </div>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h5 class="item-title">Nahdlatul Ulama University Of Blitar</h5><span class="item-details">2018 To
+                        2023
+                      </span>
+                      <p class="item-description">Faculty of Exact Sciences, degree: Bachelor of computer science
+                        Managed to get a GPA of 3.67
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Experience part-->
+                <div class="col-12 col-md-6">
+                  <div class="col-block experience">
+                    <h3 class="col-title">Experience</h3>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h5 class="item-title">Freelance Wordpress Designer</h5><span class="item-details">October 2020 -
+                        Present</span>
+                      <p class="item-description">My Responsibilities are to Create website wireframes and also create
+                        visual designs to
+                        implement them with WordPress
+                      </p>
+                    </div>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h5 class="item-title">Front End Developer Internship</h5><span class="item-details">August 2021 -
+                        October 2021
+                      </span>
+                      <p class="item-description">Front End Developer & Remote Professional placement
+                        label generator tool project to make doing business easier
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Skills section-->
+            <div class="skills-section single-section">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading page-heading">
+                    <h2 class="section-title">Skill</h2>
+                    <div class="animated-bar"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading">
+                    <b>
+                      <h4 class="section-description">FrontEnd Web Development</h4>
+                    </b>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="single-skill" data-percentage="100">
+                    <div class="skill-info"><span class="skill-name">HTML/CSS</span><span
+                        class="skill-percentage"></span></div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="single-skill" data-percentage="80">
+                    <div class="skill-info"><span class="skill-name">UI Design</span><span
+                        class="skill-percentage"></span></div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="single-skill" data-percentage="80">
+                    <div class="skill-info"><span class="skill-name">JavaScript</span><span
+                        class="skill-percentage"></span></div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="single-skill" data-percentage="10">
+                    <div class="skill-info"><span class="skill-name">NextJs</span><span class="skill-percentage"></span>
+                    </div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="single-skill" data-percentage="95">
+                    <div class="skill-info"><span class="skill-name">Bootstrap</span><span
+                        class="skill-percentage"></span>
+                    </div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="single-skill" data-percentage="80">
+                    <div class="skill-info"><span class="skill-name">VueJS</span><span class="skill-percentage"></span>
+                    </div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="single-skill" data-percentage="85">
+                    <div class="skill-info"><span class="skill-name">Responsive Design</span><span
+                        class="skill-percentage"></span></div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="single-skill" data-percentage="90">
+                    <div class="skill-info"><span class="skill-name">Mobile First Approach</span><span
+                        class="skill-percentage"></span></div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="single-skill" data-percentage="90">
+                    <div class="skill-info"><span class="skill-name">Vuetify</span><span
+                        class="skill-percentage"></span>
+                    </div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="single-skill" data-percentage="10">
+                    <div class="skill-info"><span class="skill-name">ReactJs</span><span
+                        class="skill-percentage"></span>
+                    </div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <br>
+              <br>
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading">
+                    <b>
+                      <h4 class="section-description">Web Designer</h4>
+                    </b>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="single-skill" data-percentage="95">
+                    <div class="skill-info"><span class="skill-name">Implementation UI Design to Web</span><span
+                        class="skill-percentage"></span></div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="single-skill" data-percentage="100">
+                    <div class="skill-info"><span class="skill-name">Wordpress Designer</span><span
+                        class="skill-percentage"></span></div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="single-skill" data-percentage="95">
+                    <div class="skill-info"><span class="skill-name">Figma</span><span class="skill-percentage"></span>
+                    </div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="single-skill" data-percentage="80">
+                    <div class="skill-info"><span class="skill-name">Userflow</span><span
+                        class="skill-percentage"></span>
+                    </div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="single-skill" data-percentage="75">
+                    <div class="skill-info"><span class="skill-name">Mockup</span><span class="skill-percentage"></span>
+                    </div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio lightbox-->
+  <div class="lightbox-wrapper" id="portfolio" data-simplebar>
+    <div class="container">
+      <div class="lightbox-close">
+        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="lightbox-content">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-heading page-heading">
+                  <p class="section-description">Showcasing some of my best work</p>
+                  <h2 class="section-title">Portfolio</h2>
+                  <div class="animated-bar"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio section-->
+            <div class="portfolio-section single-section">
+              <div class="row">
+                <!-- Filter nav-->
+                <div class="col-12">
+                  <ul class="list-inline filter-control" role="group" aria-label="Filter Control">
+                    <li class="list-inline-item tab-active" data-filter="*">All</li>
+                    <li class="list-inline-item" data-filter=".web">Web</li>
+                    <li class="list-inline-item" data-filter=".design">UI Design</li>
+                    <li class="list-inline-item" data-filter=".mining">Data Mining</li>
+                    <li class="list-inline-item" data-filter=".wordpress">Wordpress Designer</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Thumbnail list-->
+              <div class="portfolio-grid row">
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 design"><a class="portfolio-item"
+                    href="https://www.figma.com/file/VdfRbwOLtO3RXyGnoXUhWR/INSKUSHIP-LAST" target=_blank>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-11.png">
+                      <div class="item-content">
+                        <h6 class="content-title">Design Inskuship</h6><span class="content-more">More
+                          Info</span>
+                      </div>
+                    </div>
+                  </a></div>
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 design"><a class="portfolio-item"
+                    href="https://www.figma.com/file/aU3Sux9PWEpGC1QPDqBuna/Bismillah" target=_blank>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-12.png">
+                      <div class="item-content">
+                        <h6 class="content-title">Design Ishare</h6><span class="content-more">More
+                          Info</span>
+                      </div>
+                    </div>
+                  </a></div>
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 mining"><a class="portfolio-item"
+                    href="https://colab.research.google.com/drive/1W4z1eA2OVfpnzeO3s00nLqMcUEFo-97T?usp=sharing"
+                    target=_blank>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-9.png">
+                      <div class="item-content">
+                        <h6 class="content-title">Data Mining Decision Tree C5.0</h6><span class="content-more">More
+                          Info</span>
+                      </div>
+                    </div>
+                  </a></div>
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 mining"><a class="portfolio-item"
+                    href="https://colab.research.google.com/drive/1W4z1eA2OVfpnzeO3s00nLqMcUEFo-97T?usp=sharing"
+                    target=_blank>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-10.png">
+                      <div class="item-content">
+                        <h6 class="content-title">Data Mining Decision Tree C4.5</h6><span class="content-more">More
+                          Info</span>
+                      </div>
+                    </div>
+                  </a></div>
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 web"><a class="portfolio-item"
+                    href="https://simplerestaurantcaffee.netlify.app/" data-lightbox>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-4.png">
+                      <div class="item-content">
+                        <h6 class="content-title">Static Landing Page</h6><span class="content-more">More Info</span>
+                      </div>
+                    </div>
+                  </a></div>
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 web"><a class="portfolio-item"
+                    href="https://labelgenerator.netlify.app/" data-lightbox>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-1.png">
+                      <div class="item-content">
+                        <h6 class="content-title">Label Generator Tools</h6><span class="content-more">More Info</span>
+                      </div>
+                    </div>
+                  </a></div>
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 web"><a class="portfolio-item"
+                    href="https://the-movies.netlify.app/" data-lightbox>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-6.png">
+                      <div class="item-content">
+                        <h6 class="content-title">The Movie DB</h6><span class="content-more">More Info</span>
+                      </div>
+                    </div>
+                  </a></div>
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 wordpress"><a class="portfolio-item"
+                    href="https://gudangstrawberry.id/" data-lightbox>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-8.png">
+                      <div class="item-content">
+                        <h6 class="content-title">Gudang Strawberry</h6><span class="content-more">More Info</span>
+                      </div>
+                    </div>
+                  </a></div>
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 wordpress"><a class="portfolio-item"
+                    href="https://bumiglagaharum.com/" data-lightbox>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-7.png">
+                      <div class="item-content">
+                        <h6 class="content-title">Glagah Arum</h6><span class="content-more">More Info</span>
+                      </div>
+                    </div>
+                  </a></div>
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 web"><a class="portfolio-item" href="https://citramrn.github.io/"
+                    data-lightbox>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-2.png">
+                      <div class="item-content">
+                        <h6 class="content-title">Old Portfolio</h6><span class="content-more">More Info</span>
+                      </div>
+                    </div>
+                  </a></div>
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 wordpress"><a class="portfolio-item"
+                    href="https://zildahandbag.com/" data-lightbox>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-3.png">
+                      <div class="item-content">
+                        <h6 class="content-title">Zilda Handbag</h6><span class="content-more">More Info</span>
+                      </div>
+                    </div>
+                  </a></div>
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 web"><a class="portfolio-item"
+                    href="https://citramrn.github.io/footlballlove.github.io/" data-lightbox>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-5.png">
+                      <div class="item-content">
+                        <h6 class="content-title">Football Favorite</h6><span class="content-more">More Info</span>
+                      </div>
+                    </div>
+                  </a></div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact lightbox-->
+  <div class="lightbox-wrapper" id="contact" data-simplebar>
+    <div class="container">
+      <div class="lightbox-close">
+        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="lightbox-content">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-heading page-heading">
+                  <p class="section-description">Feel free to contact me anytimes</p>
+                  <h2 class="section-title">Get in Touch</h2>
+                  <div class="animated-bar"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Contact section-->
+            <div class="contact-section single-section">
+              <div class="row">
+                <!-- Contact form-->
+                <div class="col-12 col-lg-7">
+                  <form class="contact-form" id="contact-form"
+                    action="http://exill.dk/demo/kitzu/template/php/contact.php">
+                    <h4 class="content-title">Message Me</h4>
+                    <div class="row">
+                      <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-name" type="text"
+                          name="name" placeholder="Name" required=""></div>
+                      <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-email"
+                          type="email" name="email" placeholder="Email" required=""></div>
+                      <div class="col-12 form-group"><input class="form-control" id="contact-subject" type="text"
+                          name="subject" placeholder="Subject" required=""></div>
+                      <div class="col-12 form-group form-message"><textarea class="form-control" id="contact-message"
+                          name="message" placeholder="Message" rows="5" required=""></textarea></div>
+                      <div class="col-12 form-submit"><button class="btn button-main button-scheme" id="contact-submit"
+                          type="submit">Send Message</button>
+                        <p class="contact-feedback"></p>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!-- Contact info-->
+                <div class="col-12 col-lg-5">
+                  <div class="contact-info">
+                    <h4 class="content-title">Contact Info</h4>
+                    <p class="info-description">I'm a freelancer and always available if the right project comes up.
+                      Feel free to contact me!</p>
+                    <ul class="list-unstyled list-info">
+                      <li>
+                        <div class="media align-items-center"><span class="info-icon"><i
+                              class="icon ion-logo-ionic"></i></span>
+                          <div class="media-body info-details">
+                            <h6 class="info-type">Name</h6><span class="info-value">Citra Mirna</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="media align-items-center"><span class="info-icon"><i
+                              class="icon ion-md-map"></i></span>
+                          <div class="media-body info-details">
+                            <h6 class="info-type">Location</h6><span class="info-value">Blitar City, Indonesia.</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="media align-items-center"><span class="info-icon"><i
+                              class="icon ion-md-call"></i></span>
+                          <div class="media-body info-details">
+                            <h6 class="info-type">Call Me</h6><span class="info-value"><a href="tel:+6287754421765">+62
+                                877 5442 1765</a></span>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="media align-items-center"><span class="info-icon"><i
+                              class="icon ion-md-send"></i></span>
+                          <div class="media-body info-details">
+                            <h6 class="info-type">Email Me</h6><span class="info-value"><a
+                                href="mailto:ctrmirna@gmail.com">ctrmirna@gmail..com</a></span>
+                          </div>
+                        </div>
+                      </li>
                     </ul>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-
-    <section class="page-sections">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center mb-5 six">
-                    <h4>What I Do</h4>
-                    <h3 class="text-uppercase"> <b> SpeciaLizing In</b></h3>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-auto col d-flex justify-content-center">
-                    <div class="card shadow p-3 mb-5 bg-white rounded border-0" style="width: 15rem;">
-                        <div class="card-body">
-                            <img src="asset/icons/html.webp" alt="html">
-                            <h5 class="card-title">HTML</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Advanced</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-auto col d-flex justify-content-center">
-                    <div class="card shadow p-3 mb-5 bg-white rounded border-0" style="width: 15rem;">
-                        <div class="card-body">
-                            <img src="asset/icons/css.webp" alt="css">
-                            <h5 class="card-title">CSS</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Advanced</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-auto col d-flex justify-content-center">
-                    <div class="card shadow p-3 mb-5 bg-white rounded border-0" style="width: 15rem;">
-                        <div class="card-body">
-                            <img src="asset/icons/js.webp" alt="js">
-                            <h5 class="card-title">JavaScript</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Beginner</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-auto col d-flex justify-content-center">
-                    <div class="card shadow p-3 mb-5 bg-white rounded border-0" style="width: 15rem;">
-                        <div class="card-body">
-                            <img src="asset/icons/design.webp" alt="design">
-                            <h5 class="card-title">UI/UX Prototyping</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Intermediate</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-auto col d-flex justify-content-center">
-                    <div class="card shadow p-3 mb-5 bg-white rounded border-0" style="width: 15rem;">
-                        <div class="card-body">
-                            <img src="asset/icons/vue.webp" alt="vue">
-                            <h5 class="card-title">Vue js</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Beginner</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-auto col d-flex justify-content-center">
-                    <div class="card shadow p-3 mb-5 bg-white rounded border-0" style="width: 15rem;">
-                        <div class="card-body">
-                            <img src="asset/icons/ui.webp" alt="ui">
-                            <h5 class="card-title">UI/UX Design</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Advanced</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </div>
+  </div>
+  <!-- removeIf(customizerDist)-->
+  <div class="demo-tool">
+    <div class="tool-wrapper">
+      <span class="tool-toggler"><i class="icon ion-md-settings"></i></span>
+      <div class="tool-box">
+        <ul class="list-inline single-block color-switcher">
+          <li class="list-inline-item" style="background-color: #2c31ff;" data-path="css/colors/main-blueviolet.css">
+          </li>
+          <li class="list-inline-item" style="background-color: #3460D1;" data-path="css/colors/main-nightskyblue.css">
+          </li>
+          <li class="list-inline-item" style="background-color: #EE3158;" data-path="css/colors/main-redpink.css"></li>
+          <li class="list-inline-item" style="background-color: #007bff;" data-path="css/colors/main-blue.css"></li>
+          <li class="list-inline-item" style="background-color: #17a2b8;" data-path="css/colors/main-cyan.css"></li>
+          <li class="list-inline-item" style="background-color: #3365b0;" data-path="css/colors/main-darkblue.css"></li>
+          <li class="list-inline-item" style="background-color: #a435b7;" data-path="css/colors/main-darkmagenta.css">
+          </li>
+          <li class="list-inline-item" style="background-color: #c93e70;" data-path="css/colors/main-darkpink.css"></li>
+          <li class="list-inline-item" style="background-color: #bf2a3d;" data-path="css/colors/main-darkred.css"></li>
+          <li class="list-inline-item" style="background-color: #28a745;" data-path="css/colors/main-green.css"></li>
+          <li class="list-inline-item" style="background-color: #6610f2;" data-path="css/colors/main-indigo.css"></li>
+          <li class="list-inline-item" style="background-color: #fd7e14;" data-path="css/colors/main-orange.css"></li>
+          <li class="list-inline-item" style="background-color: #e83e8c;" data-path="css/colors/main-pink.css"></li>
+          <li class="list-inline-item" style="background-color: #6f42c1;" data-path="css/colors/main-purple.css"></li>
+          <li class="list-inline-item" style="background-color: #dc3545;" data-path="css/colors/main-red.css"></li>
+          <li class="list-inline-item" style="background-color: #20c997;" data-path="css/colors/main-teal.css"></li>
+          <li class="list-inline-item" style="background-color: #333;" data-path="css/colors/main-dark.css"></li>
+          <li class="list-inline-item" style="background-color: #78b230;" data-path="css/colors/main-yellowgreen.css">
+          </li>
+          <li class="list-inline-item" style="background-color: #E16F7C;" data-path="css/colors/main-tangopink.css">
+          </li>
+          <li class="list-inline-item" style="background-color: #6F73D2;" data-path="css/colors/main-moodyblue.css">
+          </li>
+          <li class="list-inline-item" style="background-color: #664C43;" data-path="css/colors/main-brown.css"></li>
+          <li class="list-inline-item" style="background-color: #4770D9;" data-path="css/colors/main-royalblue.css">
+          </li>
+          <li class="list-inline-item" style="background-color: #ffb100;" data-path="css/colors/main-darkyellow.css">
+          </li>
+        </ul>
+        <div class="single-block buy-btn mb-0">
+          <a class="btn btn-success btn-sm" target="_blank"
+            href="https://themeforest.net/item/kitzu-personal-portfolio-template/26075107" role="button">Buy Kitzu</a>
         </div>
-        <section>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-auto col d-flex justify-content-center box text-center">
-                        <div class="interest-icon">
-                            <img src="asset/icons/figma.webp" alt="figma">
-                        </div>
-                    </div>
-                    <div class="col-md-auto col d-flex justify-content-center box text-center">
-                        <div class="interest-icon-even">
-                            <img src="asset/icons/xd.webp" alt="xd">
-
-                        </div>
-                    </div>
-                    <div class="col-md-auto col d-flex justify-content-center box text-center">
-                        <div class="interest-icon">
-                            <img src="asset/icons/psd.webp" alt="PSD">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </section>
-
-    <footer class="footer mt-auto py-3 text-center">
-        <div class="container">
-            <span class="text-muted">Copyright © 2020 - Citramirna</span>
-        </div>
-    </footer>
-
-    <script src="src/js/bootstrap.min.js"></script>
-    <script src="/src/js/iconify.js"></script>
-
+      </div>
+    </div>
+  </div>
+  <!-- endremoveIf(customizerDist)-->
+  <!-- Scripts-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/animatedModal.js"></script>
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/lity.min.js"></script>
+  <script src="js/simplebar.min.js"></script>
+  <script src="js/jquery.mb.YTPlayer.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Custom JS (Add your custom JS scripts to this file)-->
+  <script src="js/custom.js"></script>
+  <!-- removeIf(customizerDist)-->
+  <script src="../customizer/main.js"></script>
+  <!-- endremoveIf(customizerDist)-->
 </body>
+
+
+<!-- Mirrored from exill.dk/demo/kitzu/template/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Sep 2020 17:00:43 GMT -->
 
 </html>
