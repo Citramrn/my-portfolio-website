@@ -27,7 +27,6 @@
     "vuejs-paginate": "^2.1.0"
   },
   "devDependencies": {
-    "@cloudflare/wrangler": "^1.18.0",
     "@fortawesome/fontawesome-free": "^5.14.0",
     "@vue/cli-plugin-eslint": "^3.1.1",
     "@vue/cli-plugin-pwa": "^4.4.6",
