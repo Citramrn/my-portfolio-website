@@ -54,8 +54,8 @@ export default {
           title: "Portfolio Website",
           emoji: "🙋‍♂️",
           description:
-            "Developing Website My Portfolio is made in Vue.js Template By vishesh bansal",
-          link: "https://github.com/Citramrn/Portfolio-Website",
+            "Developing Website My Portfolio is made in Vue.js Template By vishesh bansal and my portfolio citra mirna",
+          link: "https://citramirna.netlify.app/",
         },
         {
           title: "Static Restaurant Caffe",
@@ -82,7 +82,7 @@ export default {
           emoji: "💻",
           description:
             "My Old Portfolio website made in Bootstrap and static website",
-          link: "https://visheshbansal.ml/gh/Portfolio-Website",
+          link: "https://github.com/Citramrn/old-portfolio",
         },
         {
           title: "Profile Glagah Arum",
