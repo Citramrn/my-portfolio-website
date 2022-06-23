@@ -13,7 +13,7 @@
     </div>
     <div class="contents align-left">
       <a href="">
-        <h3>Nahdlatul Ulama University Of Blitar</h3>
+        <h3 class="height-line">Nahdlatul Ulama University Of Blitar</h3>
         <h5 class="grey">2018 To 2023</h5>
         <p>
           (Faculty of Exact Sciences, degree: Bachelor of computer science
@@ -110,8 +110,8 @@ h2 {
   text-align: center;
 }
 
-.align-left {
-  line-height: 7px !important;
+h3 {
+  line-height: 10px;
 }
 
 .contents {
@@ -127,6 +127,10 @@ a {
   color: white;
 }
 
+.height-line {
+  line-height: normal !important;
+}
+
 p {
   line-height: normal !important;
 }
@@ -134,6 +138,7 @@ p {
 .link {
   color: green;
 }
+
 /* 
 
 h2 {
