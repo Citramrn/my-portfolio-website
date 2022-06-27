@@ -220,7 +220,7 @@ span {
 .wrapper .logo:hover span,
 .wrapper .logo:hover .tooltip,
 .wrapper .logo:hover .tooltip:before {
-  background: #18d26e;
+  background: #1d2430;
 }
 .items {
   margin: auto 0;

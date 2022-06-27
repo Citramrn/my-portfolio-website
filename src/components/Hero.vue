@@ -5,7 +5,7 @@
     </div>
     <div class="text">
       <div class="top-text">
-        <h2>Citra Mirna Wati! 👋</h2>
+        <h2>Citra Mirna Wati</h2>
         <h3>
           I'm a
           <span
@@ -210,8 +210,7 @@ a {
 }
 
 .contact-me:hover {
-  transform: translateY(-5px);
-  transition: all ease 0.2s;
+  background-color: green;
 }
 
 h2,

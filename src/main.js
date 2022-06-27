@@ -4,6 +4,7 @@ import App from "./App.vue";
 import "@fortawesome/fontawesome-free/css/all.css";
 import "@fortawesome/fontawesome-free/js/all.js";
 import { CursorFx } from '@luxdamore/vue-cursor-fx';
+import VueDarkMode from "@growthbunker/vuedarkmode"
 import '../node_modules/vue-slick-carousel/dist/vue-slick-carousel.common'
 import "../node_modules/vue-slick-carousel/dist/vue-slick-carousel.umd"
 import VueSlickCarousel from 'vue-slick-carousel'
@@ -19,7 +20,7 @@ Vue.config.productionTip = false;
 
 new Vue({
     router,
-
+    VueDarkMode,
     //VueRouter,
     render: function (h) {
         return h(App);

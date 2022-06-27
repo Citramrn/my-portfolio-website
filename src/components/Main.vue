@@ -1,12 +1,7 @@
 <template>
   <div id="app">
-    <cursor-fx color="lawngreen"></cursor-fx>
+    <!-- <cursor-fx color="lawngreen"></cursor-fx> -->
     <div class="home">
-      <div>
-        <button class="scroll-top" v-on:click="scrollToTop">
-          <i id="scroll-top" class="fas fa-chevron-up fa-lg"></i>
-        </button>
-      </div>
       <Navbar></Navbar>
       <HorizontalDivider></HorizontalDivider>
       <Hero></Hero>
@@ -64,9 +59,28 @@ export default {
   data() {
     return {
       projects: null,
+      options: null,
     };
   },
   mounted() {
+    const options = {
+      bottom: "64px", // default: '32px'
+      right: "unset", // default: '32px'
+      left: "32px", // default: 'unset'
+      time: "0.5s", // default: '0.3s'
+      mixColor: "#CCCCCC", // default: '#fff'
+      backgroundColor: "#1a202c", // default: '#fff'
+      buttonColorDark: "#cccccc", // default: '#100f2c'
+      buttonColorLight: "#1a202c", // default: '#fff'
+      saveInCookies: false, // default: true,
+      label: "🌓", // default: ''
+      autoMatchOsTheme: true, // default: true
+    };
+
+    const darkmode = new Darkmode(options);
+    darkmode.showWidget();
+
+    new Darkmode(options).showWidget();
     // This will break one day
     // TODO: Use own API key
     const url =
@@ -94,11 +108,11 @@ export default {
         console.error(error);
       });
   },
-  methods: {
-    scrollToTop() {
-      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-    },
-  },
+  // methods: {
+  //   scrollToTop() {
+  //     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  //   },
+  // },
 };
 </script>
 
@@ -119,7 +133,6 @@ html {
 }
 
 body {
-  background-color: #1a202c;
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
 }
@@ -130,26 +143,26 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2c3649;
+  background: #777777;
   border-radius: 0.5rem;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #1db954;
+  background: #535353;
   border-radius: 0.5rem;
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: lawngreen;
-}
+/* ::-webkit-scrollbar-thumb:hover {
+  background: rgb(107, 122, 91);
+} */
 
 .scroll-top {
   position: fixed;
   bottom: 15%;
   left: 85%;
-  background-color: #1db954;
+  background-color: #333634;
   border: none;
   margin-left: 2rem;
   padding: 10px;

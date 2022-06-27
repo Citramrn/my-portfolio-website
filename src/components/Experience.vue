@@ -21,7 +21,7 @@
     </div>
     <div class="contents align-left">
       <a href="">
-        <h3>Personal Company</h3>
+        <h3>Freelance</h3>
         <h5>Wordpress Designer</h5>
         <h5 class="grey">October 2020 - Present</h5>
         <p>

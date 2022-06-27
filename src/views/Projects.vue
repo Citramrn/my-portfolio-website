@@ -1,6 +1,6 @@
 <template>
   <div id="wrap-content">
-    <cursor-fx color="lawngreen"></cursor-fx>
+    <!-- <cursor-fx color="lawngreen"></cursor-fx> -->
     <div class="home">
       <Navbar></Navbar>
       <HorizontalDivider></HorizontalDivider>
@@ -65,6 +65,7 @@ export default {
           link: "https://github.com/Citramrn/restaurant",
         },
         {
+          id: 1,
           title: "Gudang strawberry",
           emoji: "🍓",
           description:
@@ -78,13 +79,7 @@ export default {
           link: "https://github.com/GDGVIT/vitty-backend",
         },
         {
-          title: "Old Portfolio",
-          emoji: "💻",
-          description:
-            "My Old Portfolio website made in Bootstrap and static website",
-          link: "https://github.com/Citramrn/old-portfolio",
-        },
-        {
+          id: 2,
           title: "Profile Glagah Arum",
           emoji: "🎫",
           description:
@@ -95,6 +90,24 @@ export default {
     };
   },
   mounted() {
+    const options = {
+      bottom: "64px", // default: '32px'
+      right: "unset", // default: '32px'
+      left: "32px", // default: 'unset'
+      time: "0.5s", // default: '0.3s'
+      mixColor: "#CCCCCC", // default: '#fff'
+      backgroundColor: "#1a202c", // default: '#fff'
+      buttonColorDark: "#cccccc", // default: '#100f2c'
+      buttonColorLight: "#1a202c", // default: '#fff'
+      saveInCookies: false, // default: true,
+      label: "🌓", // default: ''
+      autoMatchOsTheme: true, // default: true
+    };
+
+    const darkmode = new Darkmode(options);
+    darkmode.showWidget();
+
+    new Darkmode(options).showWidget();
     // This will break one day
     // TODO: Use own API key
     const url =
@@ -132,9 +145,6 @@ export default {
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-* {
-  box-sizing: border-box;
-}
 
 .btn-back {
   border-radius: 4px;
@@ -145,14 +155,12 @@ export default {
   font-size: 16px;
   padding: 10px;
   margin-top: 34px;
-  transition: all 0.5s;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
 }
 
 .btn-back:hover {
-  transform: translateY(-5px);
-  transition: all ease 0.2s;
+  background-color: green;
 }
 
 .right:hover {
@@ -178,13 +186,7 @@ export default {
   text-align: center;
 }
 
-html {
-  padding: 0;
-  margin: 0;
-}
-
 body {
-  background-color: #1a202c;
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
 }

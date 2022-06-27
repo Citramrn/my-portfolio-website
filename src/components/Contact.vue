@@ -7,7 +7,7 @@
     <h4>Primary</h4>
     <div class="wrapper">
       <div class="icon logo">
-        <div class="tooltip">Mail</div>
+        <!-- <div class="tooltip">Mail</div> -->
         <span>
           <a
             href="mailto:ctrmirna@gmail.com"
@@ -19,7 +19,7 @@
     </div>
     <div class="wrapper">
       <div class="icon logo">
-        <div class="tooltip">Telegram</div>
+        <!-- <div class="tooltip">Telegram</div> -->
         <span>
           <a
             href="https://t.me/Citramrn"
@@ -32,7 +32,7 @@
     <h4>Social</h4>
     <div class="wrapper">
       <div class="icon logo">
-        <div class="tooltip">GitHub</div>
+        <!-- <div class="tooltip">GitHub</div> -->
         <span
           ><a
             href="https://github.com/Citramrn"
@@ -44,7 +44,7 @@
     </div>
     <div class="wrapper">
       <div class="icon logo">
-        <div class="tooltip">Instagram</div>
+        <!-- <div class="tooltip">Instagram</div> -->
         <span
           ><a
             href="https://www.instagram.com/citramirna/"
@@ -56,7 +56,7 @@
     </div>
     <div class="wrapper">
       <div class="icon logo">
-        <div class="tooltip">LinkedIn</div>
+        <!-- <div class="tooltip">LinkedIn</div> -->
         <span
           ><a
             href="https://www.linkedin.com/in/citra-mirna-786999199/"
@@ -167,7 +167,7 @@ h4 {
   font-size: 25px;
 }
 
-.wrapper .icon .tooltip {
+/* .wrapper .icon .tooltip {
   position: absolute;
   top: 0;
   z-index: 1;
@@ -181,7 +181,7 @@ h4 {
   pointer-events: none;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
+} */
 
 .wrapper .icon:hover .tooltip {
   top: -70px;
@@ -230,11 +230,10 @@ a {
 }
 
 .contact-me:hover {
-  transform: translateY(-5px);
-  transition: all ease 0.3s;
+  background-color: green;
 }
 
-.icon .tooltip:before {
+/* .icon .tooltip:before {
   position: absolute;
   content: "";
   height: 15px;
@@ -244,8 +243,8 @@ a {
   bottom: -6px;
   transform: translateX(-50%) rotate(45deg);
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
+} */
+/* 
 .wrapper .icon:hover span {
   color: #fff;
 }
@@ -258,6 +257,6 @@ a {
 .wrapper .logo:hover span,
 .wrapper .logo:hover .tooltip,
 .wrapper .logo:hover .tooltip:before {
-  background: #18d26e;
-}
+  background-color: #18d26e;
+} */
 </style>

@@ -35,11 +35,28 @@
 <script>
 export default {
   name: "Navbar",
+  data() {
+    return {};
+  },
+  methods: {},
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.dark-light {
+  background-color: rgb(233, 233, 233);
+  color: white;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked ~ * {
+  filter: invert(1);
+}
+
 .fa-google {
   color: white;
 }
@@ -84,8 +101,6 @@ li {
 
 li:hover {
   background-color: #18d26e;
-  transform: translateY(-5px);
-  transition: all ease 0.2s;
 }
 
 .fa-kaggle {
