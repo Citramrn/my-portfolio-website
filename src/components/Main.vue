@@ -68,9 +68,9 @@ export default {
       right: "unset", // default: '32px'
       left: "32px", // default: 'unset'
       time: "0.5s", // default: '0.3s'
-      mixColor: "#CCCCCC", // default: '#fff'
+      mixColor: "#F7F7F7", // default: '#fff'
       backgroundColor: "#1a202c", // default: '#fff'
-      buttonColorDark: "#cccccc", // default: '#100f2c'
+      buttonColorDark: "#F7F7F7", // default: '#100f2c'
       buttonColorLight: "#1a202c", // default: '#fff'
       saveInCookies: false, // default: true,
       label: "🌓", // default: ''
