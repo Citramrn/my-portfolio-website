@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.5.0",
   "private": true,
-  "author": "Citra Mirna <ctrmirna@gmail.com> (https://citramrn.github.io)",
+  "author": "Citra Mirna <ctrmirna@gmail.com> (https://citramirna.my.id)",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

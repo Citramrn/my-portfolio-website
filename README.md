@@ -1,22 +1,19 @@
-# ✨ Portfolio Website for Vishesh Bansal ✨
+## ✨ Portfolio Website By [visheshbansal.ml](https://visheshbansal.ml/)✨
 
-Portfolio website template for Vishesh Bansal built in [Vue.Js](https://vuejs.org/) 
+### Results:![all-devices-white](https://i.ibb.co/N3q2hvN/all-devices-white.png)
 
-<p align="center"><strong> Live demo template that I use <a href="https://visheshbansal.ml/">here</a> ! </strong></p>
+#### Link production: [citramirna.my.id](https://citramirna.my.id")
 
-<img align="center" src="doc/portfolio-template.gif" alt="portfolio-vuejs preview"></img>
+Portfolio website template for Vishesh Bansal built in [Vue.Js](https://vuejs.org/)
+
+<p align="center"><strong> Live demo template that I use <a  href="https://visheshbansal.ml/">here</a> ! </strong></p>
+
+<img alin="center"  src="doc/portfolio-template.gif"  alt="portfolio-vuejs preview"></img>
 
 ---
 
-## Table of Contents
-
-- [Features](#features)
-- [Setup](#project-setup)
-- [Author](#author)
-- [License](#-license)
-- [Edit Content](#-content)
-
 ## Features
+
 - Builded with VueJs framework ✨
 - Material design ✨
 - CSS Custom ✨
@@ -26,6 +23,7 @@ Portfolio website template for Vishesh Bansal built in [Vue.Js](https://vuejs.or
 - Progressive Web Apps ✨
 - register-service-worker Version 1.7.1 ✨
 
+  
 ## Project setup
 ```
 yarn install
@@ -40,22 +38,14 @@ yarn run build
 ```
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-## How to edit content
-This portfolio template is very minimalist and only needs to be developed a little
+### Contact Info
 
-To customize the portfolio, I had to edit the content and update the templates in it. Once done, I had to update the credentials of the **.env** file.
+- Instagram : [@citramirna](https://www.instagram.com/citramirna)
+- WhatsApp : [+62 877 5442 1765](https://wa.me/6287754421765)
+- Email : [ctrmirna@gmail.com](mailto:ctrmirna@gmail.com)
 
-To do this, I just need to modify the variables contained in the ENV file (API token, slug bucket and read key).
-
-## Author
-
-👤 **VisheshBansal**
-
-* Github: [@VisheshBansal](https://github.com/VisheshBansal/)
-* Portfolio: [visheshbansal.ml](https://visheshbansal.ml/)
-
-## 📝 License
-
-This project is under [MIT](https://github.com/VisheshBansal/Portfolio-Website/blob/main/LICENSE) license.
+---
+###### tags: `Vue Js` `PWA` `ServiceWorker` `CSS` `DarkLightTheme` 

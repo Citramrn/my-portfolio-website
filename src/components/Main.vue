@@ -72,7 +72,7 @@ export default {
       backgroundColor: "#1a202c", // default: '#fff'
       buttonColorDark: "#F7F7F7", // default: '#100f2c'
       buttonColorLight: "#1a202c", // default: '#fff'
-      saveInCookies: false, // default: true,
+      saveInCookies: true, // default: true,
       label: "🌓", // default: ''
       autoMatchOsTheme: true, // default: true
     };
