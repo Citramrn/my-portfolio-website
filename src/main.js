@@ -10,6 +10,7 @@ import "../node_modules/vue-slick-carousel/dist/vue-slick-carousel.umd"
 import VueSlickCarousel from 'vue-slick-carousel'
 import '@luxdamore/vue-cursor-fx/dist/CursorFx.css';
 import router from './router'
+import './registerServiceWorker'
 Vue.component(
     CursorFx.name,
     CursorFx,

@@ -18,11 +18,7 @@ Portfolio website template for Vishesh Bansal built in [Vue.Js](https://vuejs.or
 - Material design ✨
 - CSS Custom ✨
 - Responsive ✨
-- Animated layout ✨
 - Dark and Light Theme ✨
-- Progressive Web Apps ✨
-- register-service-worker Version 1.7.1 ✨
-
   
 ## Project setup
 ```
@@ -48,4 +44,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Email : [ctrmirna@gmail.com](mailto:ctrmirna@gmail.com)
 
 ---
-###### tags: `Vue Js` `PWA` `ServiceWorker` `CSS` `DarkLightTheme` 
+###### tags: `Vue Js` `Vue Cli` `CSS` `DarkLightTheme` 

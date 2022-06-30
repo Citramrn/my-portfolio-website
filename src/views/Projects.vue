@@ -41,6 +41,7 @@ export default {
   },
   data() {
     return {
+      id: this.$route.params.id,
       projects: null,
       cards: [
         {
@@ -48,14 +49,14 @@ export default {
           emoji: "📦",
           description:
             "The internship project that was carried out was a label generator tool, a print label to help consumers handle labels such as online store invoices.",
-          link: "https://github.com/Citramrn/label_generator.github.io",
+          link: "https://github.com/Citramrn/label-generator-tools",
         },
         {
           title: "Portfolio Website",
           emoji: "🙋‍♂️",
           description:
             "Developing Website My Portfolio is made in Vue.js Template By vishesh bansal and my portfolio citra mirna",
-          link: "https://citramirna.netlify.app/",
+          link: "https://github.com/Citramrn/my-portfolio-website",
         },
         {
           title: "Static Restaurant Caffe",
@@ -64,28 +65,28 @@ export default {
             "Static website made from bootstrap framework with HTML and CSS slicing",
           link: "https://github.com/Citramrn/restaurant",
         },
-        {
-          id: 1,
-          title: "Gudang strawberry",
-          emoji: "🍓",
-          description:
-            "Strawberry Warehouse is a place for strawberry fruit producers in mica packaging, the best strawberries are directly picked and harvested.",
-          link: "https://gudangstrawberry.id/",
-        },
-        {
-          title: "The Movie",
-          emoji: "🎞️",
-          description: "static the movie website gets API data from MovieDB",
-          link: "https://github.com/GDGVIT/vitty-backend",
-        },
-        {
-          id: 2,
-          title: "Profile Glagah Arum",
-          emoji: "🎫",
-          description:
-            "Glagah Arum Campground is one of the tourist attractions to increase potential in the field of education.",
-          link: "https://bumiglagaharum.com",
-        },
+        // {
+        //   id: 1,
+        //   title: "Gudang strawberry",
+        //   emoji: "🍓",
+        //   description:
+        //     "Strawberry Warehouse is a place for strawberry fruit producers in mica packaging, the best strawberries are directly picked and harvested.",
+        //   link: "https://gudangstrawberry.id/",
+        // },
+        // {
+        //   title: "The Movie",
+        //   emoji: "🎞️",
+        //   description: "static the movie website gets API data from MovieDB",
+        //   link: "https://github.com/GDGVIT/vitty-backend",
+        // },
+        // {
+        //   id: 2,
+        //   title: "Profile Glagah Arum",
+        //   emoji: "🎫",
+        //   description:
+        //     "Glagah Arum Campground is one of the tourist attractions to increase potential in the field of education.",
+        //   link: "https://bumiglagaharum.com",
+        // },
       ],
     };
   },

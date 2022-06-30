@@ -18,6 +18,6 @@ export default new Router({
       path: '/all-projects',
       name: 'project',
       component: Projects
-    }
+    },
   ]
 })
