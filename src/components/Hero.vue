@@ -39,7 +39,7 @@
             class="green"
             href="https://vit.ac.in"
             >Nahdlatul Ulama University Of Blitar</a
-          >, and an alumni of
+          >, and alumni of
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -50,8 +50,7 @@
           also have experience with Frontend Development.
         </p>
         <p class="b-margin">
-          I also like UI Design. I have previous experience in designing UI
-          Designer
+          I also like UI Design. I have previous experience in designing
           <span class="green-text">UI Designer</span> using Figma. Another tool
           I use is Adobe Photoshop.
         </p>
