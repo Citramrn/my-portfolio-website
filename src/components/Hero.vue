@@ -46,13 +46,14 @@
             class="green"
             href="https://dpsgurgaon.org"
             >Vocational High School, Blitar</a
-          >. I'm a Front End Enthusiast, Freelance Wordpress Designer, and also
-          have experience with Frontend Development.
+          >. I'm a Front End Enthusiast, Freelance WordPress Designer, and I
+          also have experience with Frontend Development.
         </p>
         <p class="b-margin">
-          I also love digital art. I have prior experience in
-          <span class="green-text">UI Designer</span> designing using Figma.
-          Other tools which I use are Adobe Photoshop.
+          I also like UI Design. I have previous experience in designing UI
+          Designer
+          <span class="green-text">UI Designer</span> using Figma. Another tool
+          I use is Adobe Photoshop.
         </p>
         <p>My favourite colour is <span class="color">#1a73e8</span>.</p>
       </div>

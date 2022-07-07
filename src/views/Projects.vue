@@ -65,6 +65,13 @@ export default {
             "Static website made from bootstrap framework with HTML and CSS slicing",
           link: "https://github.com/Citramrn/restaurant",
         },
+        {
+          title: "Katalog Restaurant",
+          emoji: "🥘",
+          description:
+            "RestView stands for Restaurant Review Website this displays the favorite place and the best place with cheap and expensive but quality badget",
+          link: "https://github.com/Citramrn/pwa-finder-katalog-restaurant",
+        },
         // {
         //   id: 1,
         //   title: "Gudang strawberry",
