@@ -57,8 +57,11 @@
         <p>My favourite colour is <span class="color">#1a73e8</span>.</p>
       </div>
       <div class="contact">
-        <a href="#contact">
-          <div class="contact-me">Contact Me</div>
+        <a
+          href="https://drive.google.com/file/d/19Gw_gmLGjdT6cIdgLC3ue8WRx0cOTFJl/view?usp=sharing"
+          target="_blank"
+        >
+          <div class="contact-me">Download CV</div>
         </a>
       </div>
       <br />
