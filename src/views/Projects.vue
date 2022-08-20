@@ -65,19 +65,6 @@ export default {
             "Get to know the react ecosystem and learn about the basic concepts of React and build UI in React such as getting to know elements and components",
           link: "https://github.com/Citramrn/React-Dasar",
         },
-        {
-          title: "Aplikasi-Pengelolaan-Data-Menggunakan-DOM-dan-Web-Storage",
-          emoji: "🗒️",
-          description:
-            "Knowing the Browser Object Model (BOM), Document Object Model (DOM), and Events on the website. And you can change website content through DOM manipulation techniques and provide Events.",
-          link: "https://github.com/Citramrn/Aplikasi-Pengelolaan-Data-Menggunakan-DOM-dan-Web-Storage",
-        },
-        // {
-        //   title: "The Movie",
-        //   emoji: "🎞️",
-        //   description: "static the movie website gets API data from MovieDB",
-        //   link: "https://github.com/GDGVIT/vitty-backend",
-        // },
       ],
     };
   },

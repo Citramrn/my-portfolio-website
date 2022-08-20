@@ -1,7 +1,9 @@
 <template>
   <nav>
     <div class="name" id="name">
-      <h1>Citra Mirna</h1>
+      <router-link to="/">
+        <h1>Citra Mirna</h1>
+      </router-link>
     </div>
     <ul>
       <a
@@ -74,6 +76,8 @@ nav {
 }
 
 .name h1 {
+  color: white;
+  text-decoration: none !important;
   margin: 0 0 0 0;
   font-size: 1.8rem;
   font-weight: 600;
