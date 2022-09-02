@@ -65,6 +65,12 @@ export default {
             "Get to know the react ecosystem and learn about the basic concepts of React and build UI in React such as getting to know elements and components",
           link: "https://github.com/Citramrn/React-Dasar",
         },
+        {
+          title: "Al Qur'an",
+          emoji: "📖",
+          description: "Al Qur'an reading online app",
+          link: "https://github.com/Citramrn/al-quran",
+        },
       ],
     };
   },
