@@ -71,6 +71,12 @@ export default {
           description: "Al Qur'an reading online app",
           link: "https://github.com/Citramrn/al-quran",
         },
+        {
+          title: "Movie landing Page",
+          emoji: "🎬",
+          description: "Landing Page Web Movies dengan React.Js",
+          link: "https://github.com/Citramrn/movie-landing-page",
+        },
       ],
     };
   },
