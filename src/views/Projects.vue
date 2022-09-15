@@ -77,6 +77,12 @@ export default {
           description: "Landing Page Web Movies dengan React.Js",
           link: "https://github.com/Citramrn/movie-landing-page",
         },
+        {
+          title: "Front End challenge",
+          emoji: "⭐️",
+          description: "Landing Page Web Huddle Front End Challenge",
+          link: "https://github.com/Citramrn/Huddle",
+        },
       ],
     };
   },
